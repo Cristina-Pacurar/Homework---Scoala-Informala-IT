@@ -1,0 +1,81 @@
+h1 {
+   background-image: linear-gradient(to right, #FEAC5E 0%, #C779D0  51%, #FEAC5E  100%);
+    padding: 16px;
+    font-size: 16px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
+
+           
+  #animalList {
+    background-image: linear-gradient(to right, #FEAC5E 0%, #C779D0  51%, #FEAC5E  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;           
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: inline-block;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+  }
+
+  #animalList:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+
+
+          
+    #getPhoto {
+      background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
+      margin: 10px;
+      padding: 15px 45px;
+      text-align: center;
+      text-transform: uppercase;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color:black;           
+      box-shadow: 0 0 20px #eee;
+      border-radius: 10px;
+      display: inline-block;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      cursor: pointer;
+    }
+
+    #getPhoto:hover {
+      background-position: right center;
+      color: #fff;
+      text-decoration: none;
+    }
+   
+
+             
+    #repeatAction {
+      background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97  51%, #DD5E89  100%);
+      margin: 10px;
+      padding: 15px 45px;
+      text-align: center;
+      text-transform: uppercase;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color:black;            
+      box-shadow: 0 0 20px #eee;
+      border-radius: 10px;
+      display: inline-block;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      cursor: pointer;
+    }
+
+    #repeatAction:hover {
+      background-position: right center; 
+      color: #fff;
+      text-decoration: none;
+    }
+   

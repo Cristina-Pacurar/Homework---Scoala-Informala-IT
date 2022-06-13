@@ -1,0 +1,33 @@
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:pink;
+    align-content: center;
+    
+    
+}
+
+.container{
+    width:300px;
+    padding: 18px 25px 20px;
+    background-color:aliceblue;
+    box-shadow: 0 15px 20px black;
+    margin-top: 150px;
+
+}
+
+.btn1{
+    background-color:mediumpurple;
+    color: white;
+    
+}
+
+.btn2{
+    color:mediumpurple;
+    background-color: aliceblue;
+    border-color: aliceblue;
+
+}

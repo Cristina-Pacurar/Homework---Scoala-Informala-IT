@@ -1,0 +1,102 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Muli-Light.ttf); 
+}
+
+p{    
+    color:white;
+    font-family: myFirstFont;
+    font-size: 20px;
+    font-weight:bold;
+    
+}
+.firstp{
+    color:crimson;
+}
+
+body{
+    background-image:url("pozabg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+img{ 
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+    height: auto;
+    margin:5px;
+
+}
+
+#pict1{
+    text-align: left;
+    margin:10px;
+    width: 400px;
+    border-style: double;
+    border-color:black;
+    border-radius: 5px;
+    
+}
+
+#pict2{
+    text-align: center;
+    margin:10px;
+    width: 400px;
+    border-style: double;
+    border-color:black;
+    border-radius: 5px;
+    
+} 
+
+#pict3{
+    text-align: right;
+    margin:10px;
+    width: 400px;
+    border-style: double;
+    border-color:black;
+    border-radius: 5px;
+}
+
+
+.btn1{
+    background-color:slategray;
+    color:black;
+    text-align: left;
+}
+
+.btn2{
+    background-color:white;
+    color:black;
+    text-align: center;
+}
+
+.pctcontent{
+    text-align: center;
+}
+
+[name="star"]{
+    color: yellow;
+    
+}
+
+[name="heart-empty"]{
+    color:white;
+    
+}
+[name="heart"]{
+    color:crimson;
+    display: inline-block;
+}
+
+ion-icon{
+    font-size: 20px;
+    font-weight: 500px;
+    color: white;
+    margin-left: 25px;
+}
+span{
+    color: white;
+}
+

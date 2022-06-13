@@ -1,0 +1,86 @@
+body{
+    background: linear-gradient(to right, #8387c1, #333989 , #12175A, #0c103f)
+}
+
+.logo-container {
+    margin-top: 3%;
+    position: relative;
+    float: center;
+    transform: translate(-1%);
+    align-items: center;
+}
+
+
+.logo {
+    width: 500px;
+    left:25%;
+    justify-content: center;
+    position: relative;
+  }
+
+#episode-container{
+    float:left;
+    justify-content: center;
+    background-color:#C4ECE0;
+    border: 1px solid #b9e13f;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
+
+#characters-container{
+    width: 30%;
+    float: right;
+    padding: 20px;
+ 
+}
+
+.button-display{
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    margin: 4px 2px;
+    border-radius:2em;
+    background-image: linear-gradient(to bottom right, #B0F968 ,#68F9CD);
+    cursor:pointer;
+}
+
+.display-content{
+  width: 100%;
+  background-color: #dff7e9;
+  border: 1px solid #7cc434;
+  margin-top: 15%;
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.character-name{
+    color:#b9e13f;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.character-picture{
+    background-color: white;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    border: 3px solid #b9e13f;
+    position: sticky;
+    padding: 15px;
+
+}
+ h1{
+     color: #7cc434;
+     size: 15px;
+     text-align: center;
+     font-size: 40px;
+     font-weight: 300;
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     
+
+ }

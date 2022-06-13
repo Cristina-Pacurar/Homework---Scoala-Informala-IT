@@ -1,0 +1,93 @@
+h1 {
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50;
+}
+
+h1::first-letter {
+  color: #fe2f64;
+}
+
+#chocholate {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  width: 650px;
+  height: 250px;
+  background-color: rgb(0, 0, 0, 0.8);
+  margin: auto;
+  padding: 10px 0px 10 px 0px;
+  border-radius: 15px;
+  margin-top: 100px;
+}
+
+#firstlink {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+a:link,
+a:visited {
+  display: block;
+  font-weight: bold;
+  color: #fe2f64;
+  background-color: black;
+  width: 150px;
+  text-align: center;
+  padding: 4px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  background-color: white;
+}
+li {
+  float: left;
+}
+
+/* Formatare Pagina 2*/
+
+#secondlink {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+a:link,
+a:visited {
+  display: block;
+  font-weight: bold;
+  color: #fe2f64;
+  background-color: black;
+  width: 150px;
+  text-align: center;
+  padding: 4px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  background-color: white;
+}
+
+li {
+  float: left;
+}
+
+button {
+  background-color: black;
+  color: white;
+  display: flex;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+
+div + p::first-letter {
+  color: red;
+  font-size: 35;
+  
+}

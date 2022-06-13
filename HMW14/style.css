@@ -1,0 +1,51 @@
+
+
+@media screen and (max-width: 1920px) {
+    img {
+       border: solid red 15px;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    img {
+        border: solid blue 15px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    img {
+        border:solid yellow 15px;
+    };
+
+  }
+
+  @media screen and (max-width:1920px){
+      body{
+          background-color: gray;
+      }
+      
+  }
+
+  @media screen and (max-width:1024px) {
+      body{
+          background-color: aqua;
+      };
+      
+  }
+
+  @media screen and (max-width:800px) {
+      body{
+          background-color: orange;
+      }
+      
+  }
+
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+  
